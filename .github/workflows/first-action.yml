@@ -1,4 +1,6 @@
+# name of workwlow, can be any
 name: First Workflow
+# name of event whet workflow is running
 on: workflow_dispatch
 jobs: 
   first-job: 
