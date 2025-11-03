@@ -15,7 +15,7 @@ jobs:
       - name: Run test
         run: npm test
   deploy:
-    # to run job sequentially
+    # to run job sequentially// default behavior is in parallel
     needs: [test]
     runs-on: ubuntu-latest
     steps:
